@@ -1,0 +1,48 @@
+PROPOSTA DA ATIVIDADE
+
+1. Crie uma classe para representar o tema escolhido; OK
+2. Crie uma superclasse para sua classe poder herdar; OK
+3. Você pode criar outras subclasses de acordo com o objetivo do seu programa; OK
+4. Crie atributos genéricos na superclasse; OK
+5. Crie atributos específicos na classe de tema do trabalho; OK
+6. Crie os métodos set e get para encapsular os atributos criados; OK
+7. Crie métodos, e utilize em algum deles estruturas condicionais ou de repetição. OK
+8. Utilize os seguintes comandos estudados na disciplina: encapsulamento (ok), herança (ok), 
+polimorfismo(ok) e sobrescrita. OK
+9. Destaque no seu código, em comentários, onde foi utilizado cada comando do item acima. OK
+10.Descreva o objetivo do seu programa em um documento de texto, converta-o em PDF e,
+encaminhe o seu código em um arquivo zipado, juntamente com o arquivo em PDF
+
+
+
+================================================================================
+* criar ideias a partir dos desafios propostos nas unidade de aprendizagem
+* usar o tema LOJA ou VENDA
+
+criar superclasse movimento
+    atributos genericos:
+    tipo
+    produto
+    quantidade
+    preco
+    
+    
+    criar metodo construtor:
+        construtor(tipo, produto, qtd, preco)
+
+    metodos genericos a serem herdados (ou usar uma interface?):
+    registraMovimento()
+    alteraEstoque()
+    
+
+subclasse venda
+    atributos especificos:
+    cliente
+
+    geraContaReceber()
+
+subclasse compra
+    atributos especificos:
+    fornecedor
+
+    geraContaPagar()
